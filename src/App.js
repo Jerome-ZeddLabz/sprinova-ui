@@ -2,15 +2,15 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import MainLayout from './components/layout';
 import Dashboard from './components/dashboard';
-import Assets from './components/assets';
+import Pools from './components/pools';
 
 function App() {
   return (
     <>
       <Routes>
         <Route path='/' element={<MainLayout />}>
-          <Route path='/dashboard' element={<Dashboard />} />
-          <Route path='/assets' element={<Assets />} />
+          <Route path='/' element={<Dashboard />} />
+          <Route path='/pools' element={<Pools />} />
         </Route>
       </Routes>
     </>

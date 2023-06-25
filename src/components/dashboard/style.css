@@ -1,0 +1,10 @@
+.ant-table-thead .ant-table-cell {
+  background-color: white !important;
+  color: #8D969E !important;
+  font-size: 14px;
+  font-weight: 500 !important;
+}
+
+:where(.css-dev-only-do-not-override-ed5zg0).ant-table-wrapper .ant-table-thead >tr>th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before, :where(.css-dev-only-do-not-override-ed5zg0).ant-table-wrapper .ant-table-thead >tr>td:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before{
+    width: 0px;
+}
